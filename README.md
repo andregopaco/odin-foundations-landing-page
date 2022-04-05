@@ -14,6 +14,8 @@ Thoughts and ideas that come to me now:
 - Maybe I'll personalize it? To do so, I'd want to branch the repo (got to learn how to do it);
 - My CSS file is pretty confusing. Maybe I should try to order it in a more intuitive way the next time?
 
+- RIght now, I created a branch and called it "develop". This is my first branch ever!
+
 
 Pictures credit:
 
