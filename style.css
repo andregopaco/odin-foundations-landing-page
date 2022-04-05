@@ -31,7 +31,7 @@ h3 {
 }
 
 .header, .footer, .entrance, .info, .quote, .action-area {
-  padding: 0 12%;  
+  padding: 0 12%;
 }
 
 a {
@@ -58,6 +58,7 @@ a, p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 50px 0 100px 0;
 }
 
 .info h2 {
@@ -81,20 +82,23 @@ button {
 
 .my-imgs {
   display: flex;
-  gap: 50px;
+  gap: 60px;
+  margin-top: 50px;
 }
 
 .text-img {
-  max-width: 150px;
+  max-width: 165px;
   text-align: center;
+  font-size: 18px;
 }
 
 .my-imgs img {
   /* border-radius: 50%; */
   height: 150px;
   width: 150px;
-  border: solid 2px #3882F6;
+  border: solid 3px #3882F6;
   border-radius: 10px; 
+  margin-bottom: 8px;
 }
 
 .entrance img {
