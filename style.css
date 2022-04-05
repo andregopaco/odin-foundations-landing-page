@@ -98,20 +98,51 @@ button {
   margin-top: 50px;
 }
 
-.text-img {
-  max-width: 165px;
+.sandor-img, .freud-img, .jones-img, .jung-img {
+  width: 165px;
+  height: 165px;
+  overflow: hidden;
   text-align: center;
   font-size: 18px;
 }
 
-.my-imgs img {
-  /* border-radius: 50%; */
+.sandor-img img {
+  width: 260px;
+}
+
+.freud-img img {
+  width: 215px;
+}
+
+.jones-img img {
+  width: 220px;
+}
+
+.jung-img img {
+  width: 270px;
+  margin-top: -38px;
+  margin-left: -40px;
+}
+
+.imgs-texts {
+  display: flex;
+  gap: 60px;
+  text-align: center;
+}
+
+.imgs-texts p {
+  max-width: 165px;
+  margin-top: 10px;
+}
+
+/* .my-imgs img { 
+  border-radius: 50%; 
   height: 150px;
   width: 150px;
   border: solid 3px #3882F6;
   border-radius: 10px; 
   margin-bottom: 8px;
-}
+} */
 
 .entrance img {
   height: 230px;
