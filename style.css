@@ -81,6 +81,12 @@ button {
 
 .my-imgs {
   display: flex;
+  gap: 50px;
+}
+
+.text-img {
+  max-width: 150px;
+  text-align: center;
 }
 
 .my-imgs img {
@@ -105,10 +111,10 @@ h2, h3, h4, p {
 .entrance {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 450px;
 }
 
 .entrance p {
   max-width: 450px;
-  min-width: 100px;
 }
