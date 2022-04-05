@@ -2,4 +2,28 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+.header, .footer, .entrance {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.entrance p, a, .footer {
+  color: #E5E7EB;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+button, .action-box {
+  background-color: #3882F6;
+  color: #F9FAF8;
 }
