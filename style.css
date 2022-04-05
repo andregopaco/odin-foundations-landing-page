@@ -31,7 +31,7 @@ h3 {
 }
 
 .header, .footer, .entrance, .info, .quote, .action-area {
-  padding: 0 200px;  
+  padding: 0 12%;  
 }
 
 a {
@@ -52,6 +52,19 @@ a, p {
   color: #1F2937;
 }
 
+.info {
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h2 {
+  font-weight: 900;
+  font-size: 36px;
+}
+
 button, .action-box {
   background-color: #3882F6;
   color: #F9FAF8;
@@ -63,6 +76,11 @@ button {
   font-size: 18px;
   font-weight: 700;
   border-style: none;
+  margin: 12px 0;
+}
+
+.my-imgs {
+  display: flex;
 }
 
 .my-imgs img {
@@ -74,13 +92,13 @@ button {
 }
 
 .entrance img {
-  height: 250px;
-  width: 450px;
+  height: 230px;
+  width: 490px;
   background-color: grey;
   margin-left: 40px;
 }
 
-h2, h3, h4 {
+h2, h3, h4, p {
   margin: 0;
 }
 
@@ -88,4 +106,9 @@ h2, h3, h4 {
   display: flex;
   align-items: center;
   height: 450px;
+}
+
+.entrance p {
+  max-width: 450px;
+  min-width: 100px;
 }
