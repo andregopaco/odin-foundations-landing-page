@@ -26,4 +26,17 @@ a {
 button, .action-box {
   background-color: #3882F6;
   color: #F9FAF8;
+  border-radius: 10px;
+}
+
+.my-imgs img {
+  /* border-radius: 50%; */
+  height: 150px;
+  width: 150px;
+  border: solid 2px #3882F6;
+  border-radius: 10px; 
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
 }
